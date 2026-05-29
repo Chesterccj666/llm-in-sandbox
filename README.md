@@ -9,7 +9,6 @@
   <a href="https://www.youtube.com/shorts/9sjjLT2qyBE">🎬 Youtube</a> •
   <a href="./assets/slides.pdf">📽️ Slides</a> •
   <a href="https://github.com/cdxeve/awesome-computer-use-agents">🕶️ Awesome Computer-Use-Agent</a> •
-  <a href="https://github.com/cdxeve/scale-openclaw/tree/main">🦞 Scale-OpenClaw</a>•
   <a href="https://github.com/ClawGym">🦞 ClawGym</a>•
 </p>
 
@@ -95,6 +94,15 @@ llm-in-sandbox build
 ```
 
 </details>
+
+### System Requirements & Reproducibility Notes
+
+LLM-in-Sandbox is backend-agnostic: it connects to any OpenAI-compatible endpoint, so **no local GPU is required** when using API services (e.g., OpenAI, Anthropic, or a hosted vLLM/SGLang server). Self-hosting a model is optional, and its hardware needs depend on the chosen model and serving framework.
+
+- **Tested on**: Ubuntu 22.04 with Python 3.10 and Docker.
+- **Installation time**: ~1 minute on a normal desktop computer (the one-time Docker image pull, ~400 MB, also takes about a minute on a typical connection).
+- **Demo runtime**: the quick-start demo completes in ~1 minute on a normal desktop computer (excluding model inference latency, which depends on your chosen endpoint).
+- **Dependencies**: all Python dependencies are pinned in `pyproject.toml`; the sandbox runtime is provided by the Docker image `cdx123/llm-in-sandbox:v0.1`, pulled automatically on first run.
 
 ## Quick Start
 
