@@ -69,7 +69,7 @@ Or follow the [official Docker docs](https://docs.docker.com/engine/install/).
 #### 2. Install llm-in-sandbox
 
 ```bash
-pip install llm-in-sandbox
+pip install llm-in-sandbox==0.2.0
 ```
 
 Or install from source:
