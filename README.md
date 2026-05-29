@@ -222,6 +222,10 @@ Feel free to open an issue if you have any questions or run into any problems, w
 
 We learned the design and reused code from [R2E-Gym](https://github.com/R2E-Gym/R2E-Gym). Thanks for the great work!
 
+## License
+
+Apache License 2.0. See [LICENSE](./LICENSE) for details.
+
 ## Citation
 If you find our work helpful, please cite us:
 ```bibtex
