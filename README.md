@@ -12,6 +12,8 @@
   <a href="https://github.com/ClawGym">🦞 ClawGym</a>•
 </p>
 
+This project is developed by [RUC AIBox](https://github.com/RUCAIBox).
+
 ### Give your LLM a computer, unlocking general agentic intelligence
 
 As vibe coding becomes common and [🦞 OpenClaw](https://github.com/openclaw/openclaw) draws widespread attention, we present a systematic study to show that placing an LLM inside a code sandbox with basic computer functionalities lets it significantly outperform standalone LLMs across chemistry, physics, math, biomedicine, long-context understanding, and instruction-following with no extra training. RL further amplifies the gains.
