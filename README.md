@@ -12,7 +12,7 @@
   <a href="https://github.com/ClawGym">🦞 ClawGym</a>•
 </p>
 
-This project is developed by [RUC AIBox](https://github.com/RUCAIBox).
+This project is developed by [RUC AI Box](https://github.com/RUCAIBox).
 
 ### Give your LLM a computer, unlocking general agentic intelligence
 
