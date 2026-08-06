@@ -1,0 +1,19 @@
+Query:
+In $\triangle ABC$ points $D$ and $E$ lie on $\overline{AB}$ so that $AD < AE < AB$, while points $F$ and $G$ lie on $\overline{AC}$ so that $AF < AG < AC$. Suppose $AD = 4$, $DE = 16$, $EB = 8$, $AF = 13$, $FG = 52$, and $GC = 26$. Let $M$ be the reflection of $D$ through $F$, and let $N$ be the reflection of $G$ through $E$. The area of quadrilateral $DEGF$ is $288$. Find the area of heptagon $AFNBCEM$.
+
+Please reason step by step, and put your final answer within \boxed{}.
+
+Response:
+Given triangle \(ABC\) with points \(D\) and \(E\) on \(\overline{AB}\) (\(AD = 4\), \(DE = 16\), \(EB = 8\)) and points \(F\) and \(G\) on \(\overline{AC}\) (\(AF = 13\), \(FG = 52\), \(GC = 26\)), the area of quadrilateral \(DEGF\) is 288. The area of triangle \(ABC\) is found to be 588. Using coordinates and the shoelace formula, the area of heptagon \(AFNBCEM\) is computed to be 588 as well.
+
+Thus, the area of heptagon \(AFNBCEM\) is \(\boxed{588}\).
+
+================================================================================
+### Result ###
+Problem ID: aime25_1_00
+Agent Answer: Given triangle \(ABC\) with points \(D\) and \(E\) on \(\overline{AB}\) (\(AD = 4\), \(DE = 16\), \(EB = 8\)) and points \(F\) and \(G\) on \(\overline{AC}\) (\(AF = 13\), \(FG = 52\), \(GC = 26\)), the area of quadrilateral \(DEGF\) is 288. The area of triangle \(ABC\) is found to be 588. Using coordinates and the shoelace formula, the area of heptagon \(AFNBCEM\) is computed to be 588 as well.
+
+Thus, the area of heptagon \(AFNBCEM\) is \(\boxed{588}\).
+Ground Truth: 588
+Score: 1.0000
+================================================================================

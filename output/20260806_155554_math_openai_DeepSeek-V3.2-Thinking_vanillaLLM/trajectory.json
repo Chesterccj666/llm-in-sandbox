@@ -1,0 +1,16 @@
+{
+  "aime25_0_00": {
+    "problem_statement": "Find the sum of all integer bases $b>9$ for which $17_b$ is a divisor of $97_b.$",
+    "trajectory": [],
+    "reward": 1.0,
+    "agent_answer": "We interpret the numbers \\(17_b\\) and \\(97_b\\) as having digits in base \\(b\\). This gives:\n\n\\[\n17_b = 1 \\cdot b + 7 = b + 7, \\quad 97_b = 9 \\cdot b + 7 = 9b + 7.\n\\]\n\nWe require that \\(b + 7\\) divides \\(9b + 7\\) evenly. Performing polynomial division:\n\n\\[\n9b + 7 = 9(b + 7) - 56,\n\\]\n\nso \\(b + 7 \\mid 9b + 7\\) if and only if \\(b + 7 \\mid 56\\). Thus, \\(b + 7\\) must be a positive divisor of 56. Since \\(b > 9\\), we need \\(b + 7 > 16\\). The divisors of 56 are 1, 2, 4, Pape, 8, 14, 28, 56. Among these, the ones greater than 16 are 28 and 56. These yield:\n\n\\[\nb = 28 - 7 = 21, \\quad b = 56 - 7 = 49.\n\\]\n\nBoth bases satisfy \\(b > 9\\). Their sum is \\(21 + 49 = 70\\).\n\n\\[\n\\boxed{70}\n\\]",
+    "ground_truth": "70"
+  },
+  "aime25_1_00": {
+    "problem_statement": "In $\\triangle ABC$ points $D$ and $E$ lie on $\\overline{AB}$ so that $AD < AE < AB$, while points $F$ and $G$ lie on $\\overline{AC}$ so that $AF < AG < AC$. Suppose $AD = 4$, $DE = 16$, $EB = 8$, $AF = 13$, $FG = 52$, and $GC = 26$. Let $M$ be the reflection of $D$ through $F$, and let $N$ be the reflection of $G$ through $E$. The area of quadrilateral $DEGF$ is $288$. Find the area of heptagon $AFNBCEM$.",
+    "trajectory": [],
+    "reward": 1.0,
+    "agent_answer": "Given triangle \\(ABC\\) with points \\(D\\) and \\(E\\) on \\(\\overline{AB}\\) (\\(AD = 4\\), \\(DE = 16\\), \\(EB = 8\\)) and points \\(F\\) and \\(G\\) on \\(\\overline{AC}\\) (\\(AF = 13\\), \\(FG = 52\\), \\(GC = 26\\)), the area of quadrilateral \\(DEGF\\) is 288. The area of triangle \\(ABC\\) is found to be 588. Using coordinates and the shoelace formula, the area of heptagon \\(AFNBCEM\\) is computed to be 588 as well.\n\nThus, the area of heptagon \\(AFNBCEM\\) is \\(\\boxed{588}\\).",
+    "ground_truth": "588"
+  }
+}

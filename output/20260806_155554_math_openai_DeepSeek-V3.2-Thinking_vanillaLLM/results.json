@@ -1,0 +1,24 @@
+{
+  "config": {
+    "mode": "llm",
+    "docker_image": "cdx123/llm-in-sandbox:v0.1",
+    "llm_name": "openai/DeepSeek-V3.2-Thinking",
+    "llm_base_url": "https://www.dmxapi.cn/v1",
+    "max_steps": 32,
+    "temperature": 1.0,
+    "max_token_limit": 65536,
+    "max_tokens_per_call": 65536,
+    "max_response_len": 65536,
+    "extra_body": {
+      "chat_template_kwargs": {
+        "thinking": true
+      }
+    },
+    "save_litellm_response": false
+  },
+  "task": "math",
+  "total": 2,
+  "mean_score": 1.0,
+  "num_errors": 0,
+  "elapsed_time_seconds": 518.6860113143921
+}
