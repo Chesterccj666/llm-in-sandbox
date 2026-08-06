@@ -9,3 +9,4 @@ demo_page/
 uv.lock
 llm-in-sandbox.yaml
 output/
+self-use.txt
